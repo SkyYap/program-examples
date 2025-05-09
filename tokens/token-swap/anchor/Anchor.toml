@@ -5,7 +5,7 @@ resolution = true
 skip-lint = false
 
 [programs.devnet]
-swap_example = "AsGVFxWqEn8icRBFQApxJe68x3r9zvfSbmiEzYFATGYn"
+swap_example = "9REFrpSamkX7NYhHVqoDV6ZW9pxRY5Bu5iP684pTPj2X"
 
 [registry]
 url = "https://api.apr.dev"
