@@ -34,8 +34,8 @@ export default function CreatePool() {
       console.log("Invalid AMM id format.");
       return;
     }
-    const mintA = new PublicKey("6ZApTXqgp9GWPrDT28hBFstz7HFz5SgovSsaL9yqDb6m");
-    const mintB = new PublicKey("AmSHtusDzJ3CrFyJcd3sc9oGwbkeNwZzWQTensX2ijhv");
+    const mintA = new PublicKey("5vpF5ARndpYjYevGhihxokpk6S5r7rAgA5r3g5AUuArv")
+    const mintB = new PublicKey("fxBzXQ9EPvzo5CdPc3sHpWA4GRuSGK4ZadvpuSKcX6N")
     
     const [mintLiquidity] = PublicKey.findProgramAddressSync(
       [ammKey.toBuffer(), mintA.toBuffer(), mintB.toBuffer(), Buffer.from("liquidity")],
